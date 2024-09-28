@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bytex/static/css/main.6f937748.css",
+    "main.js": "/bytex/static/js/main.b0f2bccd.js",
+    "static/media/bkg-player.png": "/bytex/static/media/bkg-player.e9fc3548f6f767e10648.png",
+    "static/media/hero-bkg.jpg": "/bytex/static/media/hero-bkg.e3fb8b3f641c4c058b08.jpg",
+    "static/media/left-top-blur.png": "/bytex/static/media/left-top-blur.409f51f064a8dfecee66.png",
+    "static/media/right-top-blur.png": "/bytex/static/media/right-top-blur.e333015bbb98bd28f139.png",
+    "index.html": "/bytex/index.html",
+    "main.6f937748.css.map": "/bytex/static/css/main.6f937748.css.map",
+    "main.b0f2bccd.js.map": "/bytex/static/js/main.b0f2bccd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f937748.css",
+    "static/js/main.b0f2bccd.js"
+  ]
+}
