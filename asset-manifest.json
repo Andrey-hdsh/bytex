@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/bytex/static/css/main.6f937748.css",
-    "main.js": "/bytex/static/js/main.b0f2bccd.js",
+    "main.css": "/bytex/static/css/main.63297cf7.css",
+    "main.js": "/bytex/static/js/main.62ec1230.js",
     "static/media/bkg-player.png": "/bytex/static/media/bkg-player.e9fc3548f6f767e10648.png",
     "static/media/hero-bkg.jpg": "/bytex/static/media/hero-bkg.e3fb8b3f641c4c058b08.jpg",
     "static/media/left-top-blur.png": "/bytex/static/media/left-top-blur.409f51f064a8dfecee66.png",
+    "static/media/process-blur.png": "/bytex/static/media/process-blur.2b1c57109ac8505ad58b.png",
+    "static/media/business-bkg.jpg": "/bytex/static/media/business-bkg.ddabf6f8fa2443d23607.jpg",
     "static/media/right-top-blur.png": "/bytex/static/media/right-top-blur.e333015bbb98bd28f139.png",
+    "static/media/gumBall.png": "/bytex/static/media/gumBall.e67b6488899f6b0b76a7.png",
     "index.html": "/bytex/index.html",
-    "main.6f937748.css.map": "/bytex/static/css/main.6f937748.css.map",
-    "main.b0f2bccd.js.map": "/bytex/static/js/main.b0f2bccd.js.map"
+    "main.63297cf7.css.map": "/bytex/static/css/main.63297cf7.css.map",
+    "main.62ec1230.js.map": "/bytex/static/js/main.62ec1230.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f937748.css",
-    "static/js/main.b0f2bccd.js"
+    "static/css/main.63297cf7.css",
+    "static/js/main.62ec1230.js"
   ]
 }
