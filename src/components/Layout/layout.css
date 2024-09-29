@@ -10,7 +10,7 @@
 position: fixed;
 padding-top: 18px;
 padding-left: 88px;
-z-index: 2;
+z-index: 1000;
 }
 
 .nav {

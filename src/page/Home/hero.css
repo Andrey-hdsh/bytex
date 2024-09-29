@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     height: 833px;
     width: 100vw;
-    /* z-index: 1000; */
 
   display: flex; 
   justify-content: center;
@@ -21,7 +20,7 @@ z-index: 1;
 
 .section-transform {
     padding-top: 960px;
-    padding-bottom: 60px;
+    padding-bottom: 163px;
     background-color: rgba(27, 6, 37, 1);
     text-align: center;
     position: relative;
@@ -58,16 +57,20 @@ z-index: 1;
   margin-top: 46px;
   text-align: center;
   position: relative;
+  z-index: 2;
 }
 
 .player-blok img {
   display: inline-block;
+  z-index: 2;
 }
 
 .player-icon{
   position: absolute;
+  transform: translate(-50%, -50%);
   top : 50%;
   left: 50%;
+  z-index: 3;
 }
 
 
@@ -87,4 +90,17 @@ z-index: 1;
   position: absolute;
   top: 1106px;
   left: 15px;
+}
+
+.thombus {
+  position: absolute;
+  top: 1342px;
+  right: 168px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 62px;
+  right: 506px;
+  z-index: 1;
 }

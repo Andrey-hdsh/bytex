@@ -1,0 +1,17 @@
+.scroll-container {
+    width: 100vw;
+    padding-top : 28px;
+    padding-bottom: 42px;
+    background-color:  rgba(0, 0, 0, 1);
+
+    display: flex;
+    gap: 60px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow-x: auto; 
+}

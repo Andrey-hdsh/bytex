@@ -1,0 +1,55 @@
+.business-section {
+  padding-top: 89px;
+  padding-bottom: 89px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  background-image: url('/src/image/business-bkg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.business-section h3 {
+  font-size: 55px;
+  font-weight: 700px;
+  text-transform: capitalize;
+  margin-bottom: 38px;
+}
+
+.business-section div {
+  max-width: 720px;
+  margin: auto;
+}
+
+.business-section p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: rgba(185, 185, 185, 1);
+}
+
+.business-section p:not(:last-child) {
+  margin-bottom: 46px;
+}
+
+.business-section img {
+  position: absolute;
+}
+
+.business-section img:nth-child(1) {
+  top: 296px;
+  left: 86px;
+}
+
+.business-section img:nth-child(2) {
+  top: 310px;
+  right: 145px;
+}
+
+
+.business-section img:nth-child(3) {
+    bottom: 68px;
+    right: 98px;
+  }
