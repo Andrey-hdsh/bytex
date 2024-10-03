@@ -1,7 +1,9 @@
-const Icon = (name, className) => {
+import sprite from '../../image/sprite.svg';
+
+const Icon = ({ width, height, iconId}) => {
   return (
-    <svg className={className}>
-      <use xlinkHref={`/assets/icons/sprite.svg#${name}`} />
+    <svg width={width} height={height}>
+      <use  href={`${sprite}#${iconId}`}/>
     </svg>
   );
 };

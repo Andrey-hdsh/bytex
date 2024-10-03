@@ -1,0 +1,41 @@
+.content-section {
+    background-image: url('../../image/content-creation-bkg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-block {
+    padding: 87px 100px 132px 82px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.content-wrapper {
+    padding-top: 112px;
+}
+
+.content-wrapper h4 {
+font-size: 55px;
+font-weight: 700;
+margin-bottom: 40px;
+}
+
+.content-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(185, 185, 185, 1);
+text-transform: capitalize;
+}
+
+
+.content-block button {
+    padding: 12px 23px 13px 28px;
+    background-color:  rgba(49, 186, 208, 1);
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+     box-shadow: 0 0 20px rgba(29, 126, 148, 1);
+     margin-top: 40px;
+}

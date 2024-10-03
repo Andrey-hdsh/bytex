@@ -6,7 +6,7 @@ import square from 'image/square.png';
 const Business = () => {
   return (
     <section className="business-section">
-              <img src={circle} alt="circle" />
+      <img src={circle} alt="circle" />
       <img src={triangle} alt="triangle" />
       <img src={square} alt="square" />
       <h3>

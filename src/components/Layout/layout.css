@@ -5,46 +5,57 @@
     box-sizing: border-box; 
   } */
 
-
 .header {
-position: fixed;
-padding-top: 18px;
-padding-left: 88px;
-z-index: 1000;
+  width: 100vw;
+  position: fixed;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 88px;
+  margin: auto;
+  z-index: 100;
+  margin-top: 10px;
+
+  background-color: rgba(27, 6, 37, 0.3); /* Полупрозрачный фон */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Лёгкая тень для объёма */
+  transition: background-color 0.3s ease, padding 0.3s ease;
 }
 
+
 .nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .link-mail {
-    font-size: 14px;
-    color: rgba(49, 186, 208, 1);
-   display: flex;
-   justify-content: center;
+  position: relative;
+  font-size: 14px;
+  color: rgba(49, 186, 208, 1);
+  display: flex;
+  justify-content: center;
+  z-index: 100001;
 }
 
 .nav-list {
-color:  rgba(255, 255, 255, 1);
-display: flex;
-align-items: center;
-margin-left: 196px;
-gap: 47px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  margin-left: 196px;
+  gap: 47px;
 }
 
 .nav-list a {
-font-size: 18px;
-font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.header-btn{
-    color:rgba(27, 6, 37, 1);
-    font-size: 18px;
-    font-weight: 700;
-    padding: 12px 27px 13px 30px;
-    background-color: rgba(49, 186, 208, 1);
-    border-radius: 50px;
-    margin-left: 133px;
+.header-btn {
+  color: rgba(27, 6, 37, 1);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 27px 13px 30px;
+  background-color: rgba(49, 186, 208, 1);
+  border-radius: 50px;
+  margin-left: 133px;
 
+   box-shadow: 0 0 20px rgba(29, 126, 148, 1);
 }

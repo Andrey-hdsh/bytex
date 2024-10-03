@@ -1,0 +1,91 @@
+.choose-section {
+    background-color: rgba(27, 6, 37, 1) ;
+    padding: 132px 62px  162px 96px;
+    display: flex;
+    gap: 73px;
+
+    background-image: url('../../image/connecting-tl-circle.png') , url('../../image/connect-tr-circle.png'),
+    url('../../image/connect-bl-squire.png') , url('../../image/connect-bl-ellipse.png') , url('../../image/connect-bc-triangle.png') , url('../../image/connect-bc-triangle.png') , url('../../image/connect-br-ellipse.png');
+
+background-position: 0px -250px , calc(100% - 0px) -180px , 0px calc(100% + 10px) , 0px calc(100% + 296px) , 0px calc(100% + 522px) , calc(100% + 463px) calc(100% + 496px) , calc(100% + 0px) calc(100% + 450px); 
+
+
+
+    background-repeat: no-repeat;
+}
+
+.connecting-block {
+    max-width: 676px;
+    padding-top: 43px;
+}
+
+.connecting-block span{
+font-size: 18px;
+font-weight: 700;
+color:  rgba(49, 186, 208, 1);
+margin-bottom: 13px;
+}
+
+.connecting-block h4{
+font-size: 55px;
+font-weight: 700;
+text-transform: capitalize;
+margin-bottom: 36px;
+line-height: 69.03px;
+}
+
+.connecting-block p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(185, 185, 185, 1);
+    margin-bottom: 42px;
+}
+
+.connecting-block button {
+    padding: 12px 25px 13px 25px;
+    background-color:  rgba(49, 186, 208, 1);
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+     box-shadow: 0 0 20px rgba(29, 126, 148, 1);
+}
+
+.recognition-block ul {
+display: flex;
+flex-wrap: wrap;
+gap: 30px 31px;
+}
+
+.recognition-block h5 {
+font-size: 20px;
+font-weight: 700;
+margin-top: 21px;
+margin-bottom: 14px;
+}
+
+
+.recognition-block p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.recognition-block li {
+  max-width: 252px; 
+  max-height: 318px;
+  width: 100%; 
+  border: 4px solid rgba(0, 193, 255, 1);
+  border-radius: 14px;
+  padding: 49px 24px 79px 24px;
+  box-sizing: border-box;
+}
+
+.recognition-block li:nth-child(2) {
+  position: relative; 
+  top: 66px; 
+}
+
+.recognition-block li:nth-child(4) {
+  position: relative; 
+  top: 66px; 
+}

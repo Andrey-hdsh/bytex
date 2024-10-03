@@ -1,0 +1,151 @@
+.subscribe-section {
+  padding: 105px 72px;
+  background-color: rgba(27, 6, 37, 1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter-blok {
+  padding: 61px 237px 86px 237px;
+  background: rgba(49, 186, 208, 1);
+  border-radius: 20px;
+  margin-bottom: 118px;
+}
+
+.newsletter-blok h4 {
+  font-size: 42px;
+  font-weight: 700;
+  color: rgba(13, 13, 13, 1);
+  margin-bottom: 18px;
+}
+
+.newsletter-blok p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(13, 13, 13, 1);
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.form {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+
+.form-field {
+    width: 270px;
+    height: 64px;
+    padding-left: 20px;
+    padding-right: 9px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgba(9, 9, 20, 1);
+    border: none;
+}
+
+.form-field::placeholder {
+    color: rgba(9, 9, 20, 1) ;
+}
+
+.form-field:focus {
+    outline: none;
+}
+
+.subscribe-btn {
+    background-color: rgba(9, 9, 20, 1);
+    border-radius: 9px;
+    color:  rgba(255, 255, 255, 1);
+
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 68px;
+}
+
+
+/* ____________________________________ */
+
+.newsletter-head {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 94px;
+}
+
+.help-block {
+    padding: 48px 0 75px 0;
+    background-color: rgba(217, 217, 217, 0.08);
+    border-radius: 14px;
+    max-width: 977px;
+    width: 977px;
+    margin: auto;
+;
+}
+
+.help-block form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;  
+    width: 480px; /* Фиксированная ширина формы */
+    margin: 0 auto; /* Центрирование формы в контейнере */
+}
+
+.form-help-head {
+        font-size: 48px;
+    font-weight: 500;
+    color:  rgba(0, 193, 255, 1);
+    margin-bottom: 37px;
+}
+
+.form-help {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-help {
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.72);
+
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+;
+    padding: 12px 9px 4px 2px;
+}
+
+.form-field-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.72);
+
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 12px 9px 4px 2px;
+    resize: none;
+}
+
+.form-field-textarea:focus {
+outline: none;
+}
+
+.form-field-help:focus {
+    outline: none;
+}
+
+.help-btn {
+    width: 143px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 34px;
+    background-color: rgba(0, 193, 255, 1);
+    border-radius: 16.5px;
+    margin-top: 34px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(29, 126, 148);
+}

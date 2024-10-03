@@ -1,0 +1,269 @@
+.guid-container {
+    max-width: 1287px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+
+.guid-section {
+    background-color: rgba(27, 6, 37, 1) ;
+    padding-top: 120px;
+    padding-bottom: 43px;
+    
+
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.guid-section h3 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 112px;
+}
+
+.list-blok {
+    margin: auto;
+    position: relative;
+}
+
+
+.guid-list {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.guid-list div {
+    position: relative;
+}
+
+.guid-list svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.guid-list p {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 19px;
+    margin-bottom: 33px;
+}
+
+.giude-elipse {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.guide-line {
+    position: absolute;
+    bottom: 7px;
+    /* margin: auto;
+    margin-top: -8px; */
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); /* Белая тень сверху и снизу */
+}
+
+/* ___________________________________ */
+
+.guid-section  h4{
+    margin-top: 163px;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.line-block-guide {
+    position: relative;
+}
+
+.line-block-guide img {
+    margin: auto;
+    margin-top: -12px;
+}
+
+.guide-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 11px;
+    color: rgba(185, 185, 185, 1);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+;
+}
+
+/* _________________ */
+
+.category-block {
+    margin-top: 29px;
+}
+
+.category-block ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 62px;
+}
+
+.category-block li {
+    align-items: center;
+    text-align: center;
+    padding: 24px 40px 60px 39px;
+}
+
+.category-block li:nth-child(1) {
+background-color: rgba(49, 186, 208, 1);
+}
+
+
+.category-block li:nth-child(2) {
+border-bottom: 0.5px solid rgba(185, 185, 185, 1);
+;
+border-right: 0.5px solid rgba(185, 185, 185, 1);
+}
+
+.category-block li:nth-child(3) {
+border-bottom: 0.5px solid rgba(185, 185, 185, 1);
+}
+
+.category-block li:nth-child(4) {
+border-right: 0.5px solid rgba(185, 185, 185, 1);
+}
+
+.category-block li:nth-child(5) {
+border-right: 0.5px solid rgba(185, 185, 185, 1);
+}
+
+
+.category-block img {
+    margin: auto;
+    margin-bottom: 13px;
+}
+
+.category-block svg {
+fill: rgba(49, 186, 208, 1);
+margin: auto;
+margin-bottom: 26px;
+;
+}
+
+.category-block h5 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+}
+
+.category-block p {
+    width: 332px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.guide-btn {
+    padding: 12px 25px 13px 25px;
+    background-color:  rgba(49, 186, 208, 1);
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+     box-shadow: 0 0 20px rgba(29, 126, 148, 1);
+
+}
+
+/* _____________________________________ */
+
+.tl-ellipse-guid {
+    position: absolute;
+    top: -362px;
+    z-index: 2;
+}
+
+.left-net-guid {
+    position: absolute;
+    top: -54px;
+    left: 4px;
+}
+
+.red-squire-guid {
+    position: absolute;
+    top: 140px;
+    left: 198px;
+}
+
+.right-net-guid {
+    position: absolute;
+    top:-92px;
+    right: 22px;
+}
+
+.tr-ellipse-guid {
+    position: absolute;
+    top: 80px;
+    right: -6px;
+    z-index: 2;
+}
+
+.triangle-giud {
+    position: absolute;
+    top: 241px;
+    right: 232px;
+}
+
+.tb-ellipse-guide {
+    position: absolute;
+    top: 520px;
+    left: 0px;
+}
+
+.bl-triangle-guide {
+    position: absolute;
+    bottom: -188px;
+    left: -48px;
+}
+
+.center-circle-guid {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    top: 850px;
+    left: 200px;
+}
+
+.violet-tiangle-guide {
+    position: absolute;
+    bottom:-18px;
+    left: 244px;
+}
+
+.blue-thomb-guige{
+position: absolute;
+right: 100px;
+top: 32px;
+}
+
+.cr-triangle-guide {
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+}
+
+.br-triangle-guide {
+    position: absolute;
+    bottom: -60px;
+    right: 0px;
+}
+
+.br-ellipse-guide {
+    position: absolute;
+    bottom: -646px;
+    right: -48px;
+}
+
+
+
