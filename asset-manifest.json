@@ -1,20 +1,36 @@
 {
   "files": {
-    "main.css": "/bytex/static/css/main.63297cf7.css",
-    "main.js": "/bytex/static/js/main.62ec1230.js",
+    "main.css": "/bytex/static/css/main.608b2130.css",
+    "main.js": "/bytex/static/js/main.cfc993ec.js",
     "static/media/bkg-player.png": "/bytex/static/media/bkg-player.e9fc3548f6f767e10648.png",
+    "static/media/connect-br-ellipse.png": "/bytex/static/media/connect-br-ellipse.552ec8818ab6cdc47025.png",
+    "static/media/bottom-right-ellipse-guide.png": "/bytex/static/media/bottom-right-ellipse-guide.81e2ed8e064f093afcf8.png",
+    "static/media/top-left-elipse-guide.png": "/bytex/static/media/top-left-elipse-guide.74cbfc8fc51bcecdcfd0.png",
+    "static/media/connect-bc-triangle.png": "/bytex/static/media/connect-bc-triangle.efbf11527cb6221781a0.png",
+    "static/media/content-creation-img.png": "/bytex/static/media/content-creation-img.94e4627f9e456b4732da.png",
+    "static/media/connect-bl-ellipse.png": "/bytex/static/media/connect-bl-ellipse.af112f4aac65569cfb57.png",
+    "static/media/top-right-ellipse-guide.png": "/bytex/static/media/top-right-ellipse-guide.b2b228a3ca23a80fabc9.png",
+    "static/media/bottom-left-ellipse-guide.png": "/bytex/static/media/bottom-left-ellipse-guide.998a8c10e9c88b9d17a0.png",
     "static/media/hero-bkg.jpg": "/bytex/static/media/hero-bkg.e3fb8b3f641c4c058b08.jpg",
     "static/media/left-top-blur.png": "/bytex/static/media/left-top-blur.409f51f064a8dfecee66.png",
+    "static/media/bottom-right-triangle-guide.png": "/bytex/static/media/bottom-right-triangle-guide.0cb5a9977c42d342f41a.png",
+    "static/media/center-triangle-guide.png": "/bytex/static/media/center-triangle-guide.0cb5a9977c42d342f41a.png",
     "static/media/process-blur.png": "/bytex/static/media/process-blur.2b1c57109ac8505ad58b.png",
+    "static/media/bottom-left-triangle-giude.png": "/bytex/static/media/bottom-left-triangle-giude.7488c70bd2ff90f5406f.png",
+    "static/media/pricing-bkg.jpg": "/bytex/static/media/pricing-bkg.417e1de38aa861f2ce23.jpg",
     "static/media/business-bkg.jpg": "/bytex/static/media/business-bkg.ddabf6f8fa2443d23607.jpg",
     "static/media/right-top-blur.png": "/bytex/static/media/right-top-blur.e333015bbb98bd28f139.png",
+    "static/media/content-creation-bkg.jpg": "/bytex/static/media/content-creation-bkg.8bd6bca426bdd3d7c96c.jpg",
+    "static/media/right-top-net-guide.png": "/bytex/static/media/right-top-net-guide.9351dc2c9845443b2faf.png",
+    "static/media/sprite.svg": "/bytex/static/media/sprite.907c387f5501a8f6fc71adf5208aaf43.svg",
+    "static/media/left-net.png": "/bytex/static/media/left-net.c4ba1a73a47b5f3aca97.png",
     "static/media/gumBall.png": "/bytex/static/media/gumBall.e67b6488899f6b0b76a7.png",
     "index.html": "/bytex/index.html",
-    "main.63297cf7.css.map": "/bytex/static/css/main.63297cf7.css.map",
-    "main.62ec1230.js.map": "/bytex/static/js/main.62ec1230.js.map"
+    "main.608b2130.css.map": "/bytex/static/css/main.608b2130.css.map",
+    "main.cfc993ec.js.map": "/bytex/static/js/main.cfc993ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.63297cf7.css",
-    "static/js/main.62ec1230.js"
+    "static/css/main.608b2130.css",
+    "static/js/main.cfc993ec.js"
   ]
 }
