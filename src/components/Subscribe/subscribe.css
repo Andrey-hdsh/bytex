@@ -1,16 +1,36 @@
 .subscribe-section {
-  padding: 105px 72px;
+  padding: 105px 72px 134px 72px;
   background-color: rgba(27, 6, 37, 1);
   text-align: center;
   position: relative;
   overflow: hidden;
+
+background-image: url('../../image/subscribe-tl-triangle-blur.png') ,
+url('../../image/crooked-line.png')
+, url('../../image/subscribe-tc-triangle-blur.png') 
+, url('../../image/subscribe-tc-ellipse-blur.png')
+, url('../../image/subscribe-tc-ellipse-blur.png')
+, url('../../image/subscribe-сl-spot.png')
+, url('../../image/subscribe-cc-spot.png')
+, url('../../image/subscribe-cr-spot.png')
+, url('../../image/subscribe-bl-ellipse.png')
+, url('../../image/subscribe-bl-ellipse\ 90deg.png');
+
+background-repeat: no-repeat;
+
+background-position: top left, top 151px left 52px, top center , top -203px center ,top -106px center , top 1304px left , top 1548px left 402px , top 1236px right, bottom 288px left , bottom -94px left 50%;
 }
+
+
+
 
 .newsletter-blok {
   padding: 61px 237px 86px 237px;
   background: rgba(49, 186, 208, 1);
   border-radius: 20px;
   margin-bottom: 118px;
+
+  position: relative;
 }
 
 .newsletter-blok h4 {
@@ -64,6 +84,30 @@
     padding: 18px 68px;
 }
 
+.newsletter-tl-circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.newsletter-br-circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.newsletter-blok svg:nth-of-type(1) {
+    position: absolute;
+    bottom: 112.5px;
+    left: 87px;
+}
+
+.newsletter-blok svg:nth-of-type(2) {
+    position: absolute;
+    top: 58px;
+    right: 64px;
+}
+
 
 /* ____________________________________ */
 
@@ -81,6 +125,9 @@
     max-width: 977px;
     width: 977px;
     margin: auto;
+    margin-bottom: 138px;
+
+    position: relative;
 ;
 }
 
@@ -148,4 +195,143 @@ outline: none;
     margin-top: 34px;
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 20px rgba(29, 126, 148);
+}
+
+.help-block img{
+position: absolute;
+top: 17px;
+left: 10px;
+}
+
+.help-block svg:nth-of-type(1){
+position: absolute;
+top: 14px;
+right: 106px;
+}
+
+.help-block svg:nth-of-type(2){
+position: absolute;
+bottom: 105px;
+right: 89px;
+}
+
+
+/* ________________________ */
+
+.our-latest {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 77px;
+}
+
+.our-latest-list {
+    display: flex;
+    gap: 45px;
+    text-align: left;
+    justify-content: center;
+}
+
+.our-latest-list li {
+box-sizing: border-box;
+border: 4px solid rgba(255, 255, 255, 1);
+border-radius: 8px;
+padding: 58px 36px 74px 36px;
+margin-bottom: 68px;
+display: inline-block;
+width: 370px;
+background-color: transparent;
+}
+
+.our-latest-list li:nth-of-type(1) {
+background-image: url('../../image/1-li-bkg.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.our-latest-list li:nth-of-type(2) {
+background-image: url('../../image/2-li-bkg.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.our-latest-list li:nth-of-type(3) {
+background-image: url('../../image/3-li-bkg.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.our-latest-list h4 {
+font-size: 36px;
+font-weight: 500;
+}
+
+.our-latest-list li:nth-child(1) h4  {
+margin-top: 50.23px;
+}
+
+.our-latest-list li:nth-child(2) h4  {
+margin-top: 68px;
+}
+
+.our-latest-list li:nth-child(3) h4  {
+margin-top: 52px;
+}
+
+
+.our-latest-list span {
+font-size: 14px;
+font-weight: 400;
+}
+
+.our-latest-list p {
+margin-top: 21px;
+margin-bottom: 37px;
+font-size: 19px;
+font-weight: 500;
+line-height: 21px;
+
+}
+
+.our-latest-list button {
+font-size: 19px;
+font-weight: 500;
+color: rgba(28, 28, 28, 1);
+padding: 13px 28px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 24px;
+}
+
+.our-latest-btn {
+    font-size: 18px;
+    font-weight: 700;
+    background-color:  rgba(0, 193, 255, 1);
+    border-radius: 50px;
+    padding: 12px 34px;
+    box-shadow: 0 0 20px rgba(29, 126, 148, 1);
+}
+
+/* _________________________________ */
+
+.first-client-block {
+    display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     margin-top: 158px;
+
+}
+
+.secont-client-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 121px;
+}
+
+.subscribe-circle-bkg {
+    position: absolute;
+    top: 406px;
+    left: 0;
 }

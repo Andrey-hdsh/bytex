@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import logo from 'image/logo.png';
 import './layout.css';
+import Footer from 'components/Footer/Footer';
 
 const Layout = () => {
   return (
@@ -39,7 +40,7 @@ const Layout = () => {
         </nav>
       </header>
       <Outlet />
-      <footer></footer>
+      <Footer/>
     </div>
   );
 };

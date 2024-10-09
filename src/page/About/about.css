@@ -1,0 +1,30 @@
+.about-section {
+    background-image: url('../../image/about-bkg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-container {
+    padding: 211px 0 246px 120px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: rgba(32, 197, 167, 1);
+line-height: 1;
+}
+
+.about-container span:nth-child(1) {
+    color: rgba(49, 186, 208, 1);
+}
+
+.about-container span:nth-child(2) {
+    color:rgba(199, 81, 255, 1);
+}
+
+.about-container p {
+    margin-top: 14px;
+}

@@ -27,12 +27,12 @@
 }
 
 .link-mail {
-  position: relative;
+  position: absolute;
   font-size: 14px;
   color: rgba(49, 186, 208, 1);
-  display: flex;
-  justify-content: center;
-  z-index: 100001;
+  left: 45%;
+  top: 15px;
+  z-index: 1001;
 }
 
 .nav-list {

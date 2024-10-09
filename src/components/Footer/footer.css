@@ -1,0 +1,213 @@
+footer {
+    background-image: url('../../image/footer-bkg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-container {
+    padding: 57px 95px 43px 129px;
+}
+
+.footer-head-block {
+    width: 590px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.footer-head-block h4{
+font-size: 30px;
+font-weight: 500;
+line-height: 34.95px;
+letter-spacing: 0.5px;
+
+margin-bottom: 25px;
+}
+
+.footer-head-block form {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.footer-head-block input {
+    font-size: 15px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 416px;
+    padding: 11px 11px 11px 20px;
+}
+
+.footer-head-block input:focus {
+outline: none;
+}
+
+.footer-head-block button {
+font-size: 18px;
+font-weight: 700;
+padding: 12px 42px 13px 42px;
+background-color:  rgba(0, 193, 255, 1);
+border-radius: 5px;
+box-shadow: 0 0 20px rgba(29, 126, 148, 1)
+}
+
+
+/* ____________________________ */
+
+.footer-wrapper{
+     display: flex;
+}
+
+.footer-social-block {
+    width: 481px;
+    margin-right: 71px;
+}
+
+.footer-social-block h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34.95px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-social-block p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.quick-links-block div:nth-child(1) {
+   margin-right: 56px;
+}
+
+.quick-links-block div:nth-child(2) {
+   margin-right: 121px;
+}
+
+.footer-social-block ul {
+display: flex;
+gap: 38px;
+}
+
+.quick-links-block {
+    display: flex;
+}
+
+.quick-links-block p{
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+
+.quick-links-block li{
+font-size: 16px;
+font-weight: 400;
+cursor: pointer;
+letter-spacing: 0.5px;
+}
+
+.quick-links-block ul li:not(:last-child){
+margin-bottom: 6px;
+}
+
+
+/* _____________________________ */
+
+.footer-form-block form{
+display: flex;
+flex-direction: column;
+gap: 11px;
+width: 301px;
+box-sizing: border-box;
+}
+
+.footer-form-block input{
+border: none ;
+margin: 0;
+padding: 0;
+border-radius: 4px;
+font-size: 13px;
+font-weight: 400;
+}
+
+.footer-form-block input:focus{
+outline: none;
+}
+
+
+.footer-form-block div input:nth-child(1){
+box-sizing: border-box;
+margin-right: 11px;
+width: 145px;
+padding: 9px 9px 10px 17px;
+border-radius: 4px;
+}
+
+.footer-form-block div input:nth-child(2){
+box-sizing: border-box;
+width: 145px;
+padding: 9px 9px 10px 19px;
+}
+
+input[name='email']{
+box-sizing: border-box;
+padding: 10px 9px 9px 17px;
+}
+
+input[name='phoneNumber']{
+box-sizing: border-box;
+padding: 10px 9px 9px 17px;
+}
+
+input[name='website']{
+box-sizing: border-box;
+padding: 10px 9px 9px 17px;
+}
+
+input[name='serviceNeeded']{
+box-sizing: border-box;
+padding: 10px 9px 9px 17px;
+}
+
+
+.footer-wishes{
+box-sizing: border-box;
+padding: 9px 9px 0px 17px;
+resize: none;
+height: 59px;
+border-radius: 4px;
+outline: none;
+}
+
+.footer-btn {
+    display: block;
+    width: 139px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 700;
+    color:  rgba(33, 33, 33, 1);
+    padding: 12px 17px;
+    background-color: rgba(0, 193, 255, 1);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.footer-underline {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 1228px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.footer-container small {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
