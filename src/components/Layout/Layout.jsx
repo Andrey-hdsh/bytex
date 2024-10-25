@@ -24,7 +24,7 @@ const Layout = () => {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/presentation">How It Works</NavLink>
+              <NavLink to="/presentation">FAQ</NavLink>
             </li>
             <li>
               <a href="#pricing-section">Pricing</a>
@@ -33,7 +33,7 @@ const Layout = () => {
               <NavLink to="blog">Blog</NavLink>
             </li>
             <li>
-              <NavLink to="/question">Features</NavLink>
+              <NavLink to="*">Features</NavLink>
             </li>
           </ul>
           <button type="button" className="header-btn">

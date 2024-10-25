@@ -1,6 +1,6 @@
 .pricing-section {
   padding: 132px 249px 195px 257px;
-  background-image: url('../../image/pricing-bkg.jpg');
+  background-image: url('../../image/business-bkg.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,11 +50,12 @@
 /* ________________________ */
 
 .rate-block {
+  margin: auto;
   background-color: rgba(37, 36, 36, 0.58);
   border-radius: 26px;
   backdrop-filter: blur(53px);
   padding: 40px 45px 40px 68px;
-  width: 837px;
+  width: 937px;
   position: relative;
 }
 

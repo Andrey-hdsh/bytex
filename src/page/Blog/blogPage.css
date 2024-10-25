@@ -1,54 +1,30 @@
 .blog-section {
- padding: 267px 88px 102px 120px;
-background-color: rgba(27, 6, 37, 1);
+  padding: 267px 88px 102px 120px;
+  background-color: rgba(27, 6, 37, 1);
   text-align: center;
   position: relative;
   overflow: hidden;
 
-
-
-  background-image: 
-  url('../../image/tl-ellipse-blogs.png'),
-  url('../../image/tr-ellipse-blogs.png'),
-  url('../../image/cell-blogs.png'),
-  url('../../image/tl2-ellipse-blogs.png'),
-  url('../../image/tr2-ellipse-blogs.png'),
-  url('../../image/tc-ellipse-blogs.png'),
-  url('../../image/tl-circle-blogs.png'),
-  url('../../image/tr-circle-blogs.png'),
-  url('../../image/left-7rules-ellipse-blogs.png'),
-  url('../../image/Ellipse\ 69.png'),
-  url('../../image/Ellipse\ 72.png'),
-  url('../../image/bl-circle-blogs.png'),
-  url('../../image/br-squire-blogs.png'),
-  url('../../image/seo-ellipse-blogs.png'),
-  url('../../image/bl-squire-blogs.png'),
-  url('../../image/subscribe-bl-ellipse\ 90deg.png')
-  
-  
-  
-  ;
+  background-image: url('../../image/tl-ellipse-blogs.png'),
+    url('../../image/tr-ellipse-blogs.png'), url('../../image/cell-blogs.png'),
+    url('../../image/tl2-ellipse-blogs.png'),
+    url('../../image/tr2-ellipse-blogs.png'),
+    url('../../image/tc-ellipse-blogs.png'),
+    url('../../image/tl-circle-blogs.png'),
+    url('../../image/tr-circle-blogs.png'),
+    url('../../image/left-7rules-ellipse-blogs.png'),
+    url('../../image/Ellipse\ 69.png'), url('../../image/Ellipse\ 72.png'),
+    url('../../image/bl-circle-blogs.png'),
+    url('../../image/br-squire-blogs.png'),
+    url('../../image/seo-ellipse-blogs.png'),
+    url('../../image/bl-squire-blogs.png'),
+    url('../../image/subscribe-bl-ellipse\ 90deg.png');
 
   background-repeat: no-repeat;
 
-  background-position: 
-  top left,
-  top right,
-  top 178px center,
-  top  left,
-  top 448px right,
-  top 632px center,
-  top 370px left,
-  top 1218px right,
-  top 640px left,
-  top 1500px left,
-  top 1900px right,
-  bottom 1716px left,
-  bottom 1180px right,
-  bottom 1000px right,
-  bottom 428px left,
-  bottom -160px center
-  
-  
-  ;
+  background-position: top left, top right, top 178px center, top left,
+    top 448px right, top 632px center, top 370px left, top 1218px right,
+    top 640px left, top 1500px left, top 1900px right, bottom 1716px left,
+    bottom 1180px right, bottom 1000px right, bottom 428px left,
+    bottom -160px center;
 }

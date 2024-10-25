@@ -6,17 +6,14 @@ import Icon from 'components/Icon/Icon';
 // import { useState } from 'react';
 
 const SevenRulesBlog = () => {
-
   // const [addMoreArticles, setAddMoreArticles] = useState(null);
 
   // const handleMoreArticles = () => {
 
   // }
 
-
-
   return (
-    <div className='blog-wrapper'>
+    <div className="blog-wrapper">
       <div className="rules-block">
         <div className="rules-head-block">
           <time dateTime="2020-01-01">Published January, 2020</time>
@@ -185,10 +182,10 @@ const SevenRulesBlog = () => {
           </div>
         </div>
       </div>
-              <button type="button" className="blog-btn-more">
-          Read More Articles
-          <Icon width={10} height={5} iconId="arrowMore" />
-        </button>
+      <button type="button" className="blog-btn-more">
+        Read More Articles
+        <Icon width={10} height={5} iconId="arrowMore" />
+      </button>
     </div>
   );
 };
