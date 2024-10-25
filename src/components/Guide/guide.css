@@ -1,5 +1,5 @@
 .guid-container {
-    max-width: 1287px;
+    /* max-width: 1287px; */
     margin: auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -63,11 +63,11 @@
 }
 
 .guide-line {
+    display: block;
     position: absolute;
     bottom: 7px;
-    /* margin: auto;
-    margin-top: -8px; */
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); /* Белая тень сверху и снизу */
+left: 70px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 
 /* ___________________________________ */

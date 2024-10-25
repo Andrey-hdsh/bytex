@@ -6,9 +6,9 @@ import square from 'image/square.png';
 const Business = () => {
   return (
     <section className="business-section">
-      <img src={circle} alt="circle" />
-      <img src={triangle} alt="triangle" />
-      <img src={square} alt="square" />
+      <img src={circle} alt="circle" loading='lazy'/>
+      <img src={triangle} alt="triangle" loading='lazy'/>
+      <img src={square} alt="square" loading='lazy'/>
       <h3>
         Take your business to
         <br /> the next level

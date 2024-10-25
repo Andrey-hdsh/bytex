@@ -1,6 +1,10 @@
+import AskedQuestions from "components/Questions/Questions";
+
 const PresentationPage = () => {
     return (
-        <div>presentation page</div>
+        <>
+            <AskedQuestions/>
+        </>
     )
 };
 

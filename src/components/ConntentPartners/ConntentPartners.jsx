@@ -17,12 +17,12 @@ const ConntentPartners = () => {
     //   onMouseLeave={stopAutoScroll}
     //   ref={scrollContainer}
     >
-      <img src={gragon} alt="gragon" />
-      <img src={atelier} alt="Atelier" />
-      <img src={anigia} alt="Anigia" />
-      <img src={giggs} alt="GIGGS" />
-      <img src={superCar} alt="Super Car" />
-      <img src={premiumRally} alt="Premium Rally" />
+      <img src={gragon} alt="gragon" loading='lazy'/>
+      <img src={atelier} alt="Atelier" loading='lazy'/>
+      <img src={anigia} alt="Anigia" loading='lazy'/>
+      <img src={giggs} alt="GIGGS" loading='lazy'/>
+      <img src={superCar} alt="Super Car" loading='lazy'/>
+      <img src={premiumRally} alt="Premium Rally" loading='lazy'/>
     </div>
   );
 };

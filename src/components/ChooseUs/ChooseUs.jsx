@@ -25,7 +25,7 @@ const ChooseUs = () => {
       <div className="recognition-block">
         <ul>
           <li>
-            <img src={headImg} alt="head img" />
+            <img src={headImg} alt="head img" loading='lazy'/>
             <h5>Smarter Solutions</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. ectetur

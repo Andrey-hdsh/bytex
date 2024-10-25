@@ -2,10 +2,12 @@ import { NavLink, Outlet } from 'react-router-dom';
 import logo from 'image/logo.png';
 import './layout.css';
 import Footer from 'components/Footer/Footer';
+import ScrollToTop from 'components/ScrollToTop/ScrollToTop';
 
 const Layout = () => {
   return (
     <div className="container">
+      <ScrollToTop/>
               <a href="mailto:info@bytexmarketing.com" className="link-mail">
           info@bytexmarketing.com
         </a>
@@ -25,7 +27,7 @@ const Layout = () => {
               <NavLink to="/presentation">How It Works</NavLink>
             </li>
             <li>
-              <a href="mailto:info@bytexmarketing.com">Pricing</a>
+              <a href="#pricing-section">Pricing</a>
             </li>
             <li>
               <NavLink to="blog">Blog</NavLink>

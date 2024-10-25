@@ -90,14 +90,14 @@ const Looking = () => {
               <button type="button">Get Started</button>
             </div>
             <div className='category-image-block'>
-              <img src={advertisement} alt="advertisement" />
-              <img src={frame} alt="frame" />
+              <img src={advertisement} alt="advertisement" loading='lazy'/>
+              <img src={frame} alt="frame" loading='lazy'/>
             </div>
           </li>
           <li>
             <div className='category-image-block'>
-              <img src={seo} alt="advertisement" />
-              <img src={frame} alt="frame" />
+              <img src={seo} alt="advertisement" loading='lazy'/>
+              <img src={frame} alt="frame" loading='lazy'/>
             </div>
             <div className='category-head-block'>
               <div className="category-underline"></div>
@@ -129,14 +129,14 @@ const Looking = () => {
               <button type="button">Get Started</button>
             </div>
             <div className='category-image-block'>
-              <img src={socialMedia} alt="advertisement" />
-              <img src={frame} alt="frame" />
+              <img src={socialMedia} alt="advertisement" loading='lazy'/>
+              <img src={frame} alt="frame" loading='lazy'/>
             </div>
           </li>
           <li>
             <div className='category-image-block'>
-              <img src={contentCreation} alt="advertisement" />
-              <img src={frame} alt="frame" />
+              <img src={contentCreation} alt="advertisement" loading='lazy'/>
+              <img src={frame} alt="frame" loading='lazy'/>
             </div>
             <div className='category-head-block'>
               <div className="category-underline"></div>
@@ -166,14 +166,14 @@ const Looking = () => {
               <button type="button">Get Started</button>
             </div>
             <div className='category-image-block'>
-              <img src={sallesFunnel} alt="advertisement" />
-              <img src={frame} alt="frame" />
+              <img src={sallesFunnel} alt="advertisement" loading='lazy'/>
+              <img src={frame} alt="frame" loading='lazy'/>
             </div>
           </li>
           <li>
             <div className='category-image-block'>
-              <img src={emailMarketing} alt="advertisement" />
-              <img src={frame} alt="frame" />
+              <img src={emailMarketing} alt="advertisement" loading='lazy'/>
+              <img src={frame} alt="frame" loading='lazy'/>
             </div>
             <div className='category-head-block'>
               <div className="category-underline"></div>

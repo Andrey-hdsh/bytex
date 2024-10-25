@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="footer-wrapper">
           <div className="footer-social-block">
             <NavLink to="/">
-              <img src={logo} alt="logo img" />
+              <img src={logo} alt="logo img" loading='lazy'/>
             </NavLink>
             <h3>
               Find out how we can help you scale your business and take it to
@@ -37,7 +37,7 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.instagram.com/accounts/login/?next=%2Fomdop%2Ffeed%2F&source=profile_feed_tab&locale=en"
+                  href="https://uk-ua.facebook.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/?app=desktop&hl=uk&gl=en"
+                  href="https://www.instagram.com/accounts/login/?next=%2Fomdop%2Ffeed%2F&source=profile_feed_tab&locale=en"
                   target="_blank"
                   rel="noreferrer"
                 >

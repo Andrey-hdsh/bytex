@@ -6,13 +6,13 @@ const Pricing = () => {
     <section className="pricing-section">
       <div className="pricing-wrapper">
         <div>
-          <h4>Plans & Pricing</h4>
+          <h4>Plans & Pricing</h4 > 
           <p>
             Whether your time-saving automation needs are large or small,
             <br /> we’re here to help you scale.
           </p>
         </div>
-        <div className="pricing-btn-block">
+        <div className="pricing-btn-block" id='pricing-section'>
           <button type="button">MONTHLY</button>
           YEARLY
         </div>

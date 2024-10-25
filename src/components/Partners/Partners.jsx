@@ -41,13 +41,13 @@ const PartnersLogos = () => {
       onMouseLeave={stopAutoScroll}
       ref={scrollContainer}
     >
-      <img src={patekPhillippe} alt="Patek Phillippe" />
-      <img src={mersedes} alt="Mersedes" />
-      <img src={ferrari} alt="Ferrari" />
-      <img src={gumBall} alt="GumBall" />
-      <img src={bugatti} alt="Bugatti" />
-      <img src={burna} alt="Burna" />
-      <img src={rolex} alt="Rolex" />
+      <img src={patekPhillippe} alt="Patek Phillippe" loading='lazy'/>
+      <img src={mersedes} alt="Mersedes" loading='lazy'/>
+      <img src={ferrari} alt="Ferrari" loading='lazy'/>
+      <img src={gumBall} alt="GumBall" loading='lazy'/>
+      <img src={bugatti} alt="Bugatti" loading='lazy'/>
+      <img src={burna} alt="Burna" loading='lazy'/>
+      <img src={rolex} alt="Rolex" loading='lazy'/>
     </div>
   );
 };

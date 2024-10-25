@@ -6,9 +6,10 @@ import PresentationPage from 'page/Presentation/PresentationPage';
 import BlogPage from 'page/Blog/BlogPage';
 import QuestionsPage from 'page/Question/QuestionsPage';
 
+
 export const App = () => {
   return (
-    <Routes>
+ <Routes>
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

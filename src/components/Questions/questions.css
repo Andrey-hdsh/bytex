@@ -1,0 +1,103 @@
+.asked-questions-section {
+    background-color: rgba(27, 6, 37, 1) ;
+    position: relative;
+
+    background-image: 
+    url('../../image/tl-ellipse-faq.png'),
+    url('../../image/tr-ellipse-faq.png'),
+    url('../../image/lattice-faq.png'),
+    url('../../image/cl-ellipse-faq.png'),
+    url('../../image/tr-circle-faq.png'),
+    url('../../image/bl-circle-faq.png'),
+    url('../../image/bl-ellipse-faq.png'),
+    url('../../image/br-squire-faq.png'),
+    url('../../image/br-ellipse-faq.png'),
+    url('../../image/subscribe-bl-ellipse\ 90deg.png')
+    ;
+
+    background-repeat: no-repeat;
+
+    background-position: 
+    top   left,
+    top 50px right,
+    top 180px center,
+    top 650px left,
+    top 1000px right,
+    bottom  left,
+    bottom -400px left,
+    bottom -200px right,
+    bottom -600px right,
+    bottom -160px center ;
+}
+
+.asked-container {
+    padding: 275px 40px 240px 40px;
+}
+
+.asked-head-block {
+    margin: auto;
+    text-align: center;
+    width: 782px;
+    box-sizing: border-box;
+    margin-bottom: 183px;
+}
+
+.asked-head-block h1{
+color:rgba(255, 255, 255, 1);
+font-size: 90px;
+font-weight: 700;
+}
+
+.asked-head-block p{
+margin-top: 30px;
+font-size: 18px;
+font-weight: 400;
+}
+
+/* _______________________ */
+
+.asked-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asked-block {
+    box-sizing: border-box;
+    width: 1056px;
+    padding: 30px 40px;
+    background-color: rgba(217, 217, 217, 0.28);
+    border-radius: 8px;
+    margin-bottom: 35px;
+}
+
+/* .asked-list div:last-child .asked-block {
+    margin-bottom: 0px;
+} */
+
+
+
+
+.asked-block span {
+    display: inline;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.asked-block p  {
+font-size: 22px;
+font-weight: 400;
+}
+
+.answer {
+    box-sizing: border-box;
+    width: 1056px;
+    font-size: 19px;
+    display: inline-block;
+    padding: 30px 40px;
+    background-color: rgba(217, 217, 217, 0.28);
+    border-radius: 8px;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+}
