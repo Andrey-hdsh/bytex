@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bytex/static/css/main.df8ceeb6.css",
-    "main.js": "/bytex/static/js/main.8cc3e949.js",
+    "main.css": "/bytex/static/css/main.27cb6014.css",
+    "main.js": "/bytex/static/js/main.d972840d.js",
     "static/media/tl1-blur-violet-about.png": "/bytex/static/media/tl1-blur-violet-about.9541d4395dcc5d345f1c.png",
     "static/media/br-blur1-blue-about.png": "/bytex/static/media/br-blur1-blue-about.d74059f73cbb703cab0b.png",
     "static/media/tl-blur-circle-violet-about.png": "/bytex/static/media/tl-blur-circle-violet-about.6905b5d4dbe11c6ea5c3.png",
@@ -58,7 +58,6 @@
     "static/media/center-triangle-guide.png": "/bytex/static/media/center-triangle-guide.0cb5a9977c42d342f41a.png",
     "static/media/process-blur.png": "/bytex/static/media/process-blur.2b1c57109ac8505ad58b.png",
     "static/media/bottom-left-triangle-giude.png": "/bytex/static/media/bottom-left-triangle-giude.7488c70bd2ff90f5406f.png",
-    "static/media/pricing-bkg.jpg": "/bytex/static/media/pricing-bkg.417e1de38aa861f2ce23.jpg",
     "static/media/run.png": "/bytex/static/media/run.119ddc91ad22b0d2a402.png",
     "static/media/Volvo.png": "/bytex/static/media/Volvo.55b76b5686c2a7dedd29.png",
     "static/media/business-bkg.jpg": "/bytex/static/media/business-bkg.ddabf6f8fa2443d23607.jpg",
@@ -71,6 +70,7 @@
     "static/media/3-li-bkg.png": "/bytex/static/media/3-li-bkg.90e0e8bd032ca310a6d2.png",
     "static/media/sprite.svg": "/bytex/static/media/sprite.88151c9182dd20cd7c16064e43649fd9.svg",
     "static/media/atlantik.png": "/bytex/static/media/atlantik.094915b659b223734e38.png",
+    "static/media/404_Pages.png": "/bytex/static/media/404_Pages.6bf359c30e3aeb754c31.png",
     "static/media/content-creation-bkg.jpg": "/bytex/static/media/content-creation-bkg.8bd6bca426bdd3d7c96c.jpg",
     "static/media/2-li-bkg.png": "/bytex/static/media/2-li-bkg.af22a810609628397c54.png",
     "static/media/tc-circle-about.png": "/bytex/static/media/tc-circle-about.f983f55db3da65e75752.png",
@@ -84,11 +84,11 @@
     "static/media/br-circle-about.png": "/bytex/static/media/br-circle-about.1aeb6dce02eaccbdaa73.png",
     "static/media/gumBall.png": "/bytex/static/media/gumBall.e67b6488899f6b0b76a7.png",
     "index.html": "/bytex/index.html",
-    "main.df8ceeb6.css.map": "/bytex/static/css/main.df8ceeb6.css.map",
-    "main.8cc3e949.js.map": "/bytex/static/js/main.8cc3e949.js.map"
+    "main.27cb6014.css.map": "/bytex/static/css/main.27cb6014.css.map",
+    "main.d972840d.js.map": "/bytex/static/js/main.d972840d.js.map"
   },
   "entrypoints": [
-    "static/css/main.df8ceeb6.css",
-    "static/js/main.8cc3e949.js"
+    "static/css/main.27cb6014.css",
+    "static/js/main.d972840d.js"
   ]
 }
