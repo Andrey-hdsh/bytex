@@ -1,1 +1,1 @@
-![Макет сайту](image/mockup-site.jpg)
+![Макет сайту](./src/image/mockup-site.jpg)
