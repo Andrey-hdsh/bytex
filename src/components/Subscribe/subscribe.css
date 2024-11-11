@@ -323,11 +323,27 @@ border-radius: 24px;
 
 }
 
+.first-client-block img  {
+transition: transform 0.3s ease;
+}
+
+.first-client-block img:hover {
+transform: scale(1.2)
+}
+
 .secont-client-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 121px;
+}
+
+.secont-client-block img {
+transition: transform 0.3s ease;
+}
+
+.secont-client-block img:hover {
+transform: scale(1.2)
 }
 
 .subscribe-circle-bkg {

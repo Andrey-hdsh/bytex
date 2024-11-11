@@ -6,7 +6,7 @@ import ScrollToTop from 'components/ScrollToTop/ScrollToTop';
 
 const Layout = () => {
   return (
-    <div className="container">
+    <div>
       <ScrollToTop/>
               <a href="mailto:info@bytexmarketing.com" className="link-mail">
           info@bytexmarketing.com
@@ -18,22 +18,22 @@ const Layout = () => {
           </NavLink>
           <ul className="nav-list">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/" className={({isActive}) => (isActive ? 'active' : '')}>Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about" className={({isActive}) => (isActive ? 'active' : '')}>About</NavLink>
             </li>
             <li>
-              <NavLink to="/presentation">FAQ</NavLink>
+              <NavLink to="/presentation" >FAQ</NavLink>
             </li>
             <li>
               <a href="#pricing-section">Pricing</a>
             </li>
             <li>
-              <NavLink to="blog">Blog</NavLink>
+              <NavLink to="blog" className={({isActive}) => (isActive ? 'active' : '')}>Blog</NavLink>
             </li>
             <li>
-              <NavLink to="*">Features</NavLink>
+              <NavLink to="*" className={({isActive}) => (isActive ? 'active' : '')}>Features</NavLink>
             </li>
           </ul>
           <button type="button" className="header-btn">

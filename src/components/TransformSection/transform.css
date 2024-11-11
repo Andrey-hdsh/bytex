@@ -1,0 +1,112 @@
+.hero-section {
+    background-image: url('image/hero-bkg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 833px;
+    width: 100vw;
+
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  box-sizing: border-box;
+
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+z-index: 1;
+}
+
+.section-transform {
+    padding-top: 960px;
+    padding-bottom: 163px;
+    background-color: rgba(27, 6, 37, 1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-transform-blok{
+  position: relative;
+}
+
+.section-transform h2 {
+  font-size: 54px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-transform-img {
+  position: absolute;
+  left: 518px;
+  bottom: -6px;
+}
+
+.section-transform span {
+  color: rgba(49, 186, 208, 1);
+}
+
+.section-transform p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 42px;
+  text-transform: capitalize;
+}
+
+.player-blok {
+  margin-top: 46px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.player-blok img {
+  display: inline-block;
+  z-index: 2;
+}
+
+.player-icon{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top : 50%;
+  left: 50%;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.player-icon:hover {
+
+}
+
+
+.top-left-blur {
+  position: absolute;
+  top: 603px;
+  left: 0;
+}
+
+.top-right-blur {
+  position: absolute;
+  top: 603px;
+  right: 0;
+}
+
+.triangle {
+  position: absolute;
+  top: 1106px;
+  left: 15px;
+}
+
+.thombus {
+  position: absolute;
+  top: 1342px;
+  right: 168px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 62px;
+  right: 506px;
+  z-index: 1;
+}

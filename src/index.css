@@ -82,7 +82,16 @@ img {
   max-width: 100%;
 }
 
+
 p {
   letter-spacing: 0.5px;
+}
+
+button {
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 

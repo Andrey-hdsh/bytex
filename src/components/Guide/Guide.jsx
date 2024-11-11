@@ -133,7 +133,7 @@ const Guide = () => {
               </p>
             </li>
             <li>
-              <Icon width={60} height={60} iconId="icon-search" />
+              <Icon width={60} height={60} iconId="icon-search"  className='category-icon'/>
               <h5>SEO</h5>
               <p>
                 To delineate your vision and objectives as plainly as could
@@ -141,7 +141,7 @@ const Guide = () => {
               </p>
             </li>
             <li>
-              <Icon width={60} height={60} iconId="icon-envelope" />
+              <Icon width={60} height={60} iconId="icon-envelope" className='category-icon'/>
               <h5>Email Marketing</h5>
               <p>
                 When there is a reasonable image of the
@@ -150,7 +150,7 @@ const Guide = () => {
               </p>
             </li>
             <li>
-              <Icon width={60} height={60} iconId="icon-rupot" />
+              <Icon width={60} height={60} iconId="icon-rupot" className='category-icon'/>
               <h5>Advertisement</h5>
               <p>
                 Once in a while suppositions made in the idea stage are
@@ -158,7 +158,7 @@ const Guide = () => {
               </p>
             </li>
             <li>
-              <Icon width={60} height={60} iconId="icon-sociamedia" />
+              <Icon width={60} height={60} iconId="icon-sociamedia" className='category-icon'/>
               <h5>Social Media</h5>
               <p>
                 A MVP , or Least Suitable Item, is the most straightforward
@@ -166,7 +166,7 @@ const Guide = () => {
               </p>
             </li>
             <li>
-              <Icon width={60} height={60} iconId="icon-content" />
+              <Icon width={60} height={60} iconId="icon-content" className='category-icon'/>
               <h5>Content Creation</h5>
               <p>
                 There’s no one way to run a data function. But today’s winning

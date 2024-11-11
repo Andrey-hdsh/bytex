@@ -71,8 +71,13 @@
   margin-top: 65px;
 
    box-shadow: 0 0 20px rgba(29, 126, 148, 1);
+
+   transition: transform 0.3s ease;
 }
 
+.process-section button:hover {
+  transform: scale(1.1);
+}
 .blur {
   position: absolute;
   top: 460px; /* Прибиваем к верхнему краю */

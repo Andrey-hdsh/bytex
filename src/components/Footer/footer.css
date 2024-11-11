@@ -82,6 +82,14 @@ box-shadow: 0 0 20px rgba(29, 126, 148, 1)
     margin-bottom: 35px;
 }
 
+.footer-social-block li {
+transition: transform 0.3s ease;
+}
+
+.footer-social-block li:hover {
+transform: scale(1.2);
+}
+
 .quick-links-block div:nth-child(1) {
    margin-right: 56px;
 }
@@ -110,6 +118,11 @@ font-size: 16px;
 font-weight: 400;
 cursor: pointer;
 letter-spacing: 0.5px;
+transition: color 0.3s ease;
+}
+
+.quick-links-block li:hover{
+color: rgba(0, 193, 255, 1);
 }
 
 .quick-links-block ul li:not(:last-child){

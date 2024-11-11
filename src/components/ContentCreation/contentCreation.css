@@ -38,4 +38,10 @@ text-transform: capitalize;
     font-weight: 700;
      box-shadow: 0 0 20px rgba(29, 126, 148, 1);
      margin-top: 40px;
+
+     transition: transform 0.3s ease;
+}
+
+.content-block button:hover {
+    transform: scale(1.1);
 }

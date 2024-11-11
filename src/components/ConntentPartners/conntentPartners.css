@@ -12,5 +12,14 @@
   scroll-behavior: smooth;
   white-space: nowrap;
   cursor: pointer;
-  overflow-x: auto;
+  overflow-x: hidden;
+}
+
+
+.scroll-partners-container img {
+  transition: transform 0.4s ease;
+}
+
+.scroll-partners-container img:hover {
+ transform: scale(1.2);
 }

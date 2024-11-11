@@ -48,6 +48,12 @@ line-height: 69.03px;
     font-size: 18px;
     font-weight: 700;
      box-shadow: 0 0 20px rgba(29, 126, 148, 1);
+
+     transition: transform 0.3s ease;
+}
+
+.connecting-block button:hover {
+  transform: scale(1.1);
 }
 
 .recognition-block ul {

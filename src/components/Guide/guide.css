@@ -18,6 +18,10 @@
     overflow: hidden;
 }
 
+.guid-section img {
+    pointer-events: none;
+}
+
 .guid-section h3 {
     font-size: 55px;
     font-weight: 500;
@@ -38,6 +42,12 @@
 
 .guid-list div {
     position: relative;
+}
+
+.guid-list li:hover  .giude-elipse {
+box-shadow: 0 0 15px 5px rgba(255, 255, 255, 1), 0 0 30px 10px rgba(255, 255, 255, 0.5);
+    background-color: rgba(73, 250, 250, 1);
+    z-index: 1;
 }
 
 .guid-list svg {
@@ -61,6 +71,8 @@
     border-radius: 50%;
     margin: auto;
 }
+
+
 
 .guide-line {
     display: block;
@@ -116,8 +128,23 @@ left: 70px;
     align-items: center;
     text-align: center;
     padding: 24px 40px 60px 39px;
+    transition: background-color 0.6s ease;
 }
 
+.category-block li .category-icon {
+    fill: rgba(49, 186, 208, 1); /* Иконка изначально зеленая */
+}
+
+.category-block li:hover {
+    background-color: rgba(49, 186, 208, 1);
+fill: white;
+    
+}
+
+
+.category-block li:hover .category-icon {
+fill: white;
+}
 .category-block li:nth-child(1) {
 background-color: rgba(49, 186, 208, 1);
 }
@@ -174,6 +201,12 @@ margin-bottom: 26px;
     font-weight: 700;
      box-shadow: 0 0 20px rgba(29, 126, 148, 1);
 
+     transition: transform 0.3s ease;
+
+}
+
+.guide-btn:hover {
+    transform: scale(1.1);
 }
 
 /* _____________________________________ */

@@ -7,6 +7,8 @@ import triangle from 'image/triangle.png';
 import thombus from 'image/thombus.png';
 import circle from 'image/circle.png';
 
+import './transform.css'
+
 const Transform = () => {
   return (
     <section className="section-transform">
